@@ -1,4 +1,3 @@
-package array;
 
 /**
  * 1) 数组的插入、删除、按照下标随机访问操作；
@@ -83,7 +82,7 @@ public class Array {
     }
 
     public static void main(String[] args) {
-        ArrayOperate array = new ArrayOperate(5);
+        /*ArrayOperate array = new ArrayOperate(5);
         array.printAll();
         array.insert(0, 3);
         array.insert(0, 4);
@@ -91,7 +90,7 @@ public class Array {
         array.insert(3, 9);
         array.insert(3, 10);
         //array.insert(3, 11);
-        array.printAll();
+        array.printAll();*/
     }
 
 

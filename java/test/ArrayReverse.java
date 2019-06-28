@@ -1,8 +1,10 @@
 /**
+ * 
  * 根据指定数据的索引 索引前后元素 调换顺序 但是原有的顺序不变
  * {1,2,3,4,5,6,7} 指定索引2
  * 转完后
  * {4,5,6,7, 3, 1,2}
+ *
  */
 public class ArrayReverse {
     public static void main(String[] args) {
@@ -29,7 +31,6 @@ public class ArrayReverse {
             arr[len-j] = temp;
 
         }
-
         //整体反转
         for (int i = 0,len=arr.length; i < len/2; i++) {
             int temp = arr[i];
